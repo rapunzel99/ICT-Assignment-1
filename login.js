@@ -20,7 +20,7 @@ function validate(){
         return true;
     }
     else{
-        error.innerHTML="invalid";
+        error.innerHTML=" email invalid";
         error.style.color="red";
         return false;
     }
